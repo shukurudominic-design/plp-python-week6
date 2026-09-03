@@ -25,3 +25,17 @@ This repository contains my Python Week 4 assignment covering conditional statem
 ### When is `elif` better than several separate `if` statements?
 
 `elif` is better when you are checking several mutually exclusive conditions and only one result should be selected. It makes the code clearer and ensures that once one condition is true, the remaining conditions are not checked.
+# PLP Python Week 5 Assignment
+
+This repository contains my PLP Python Week 5 assignment covering while loops, for loops, counters, and repetition.
+
+### Files
+
+* `countdown.py` — Counts down from a number entered by the user and prints "Blast off!" when the countdown ends.
+* `guess_game.py` — Runs a number guessing game with hints and an attempt counter.
+* `spell_it_out.py` — Prints each letter of a word separately and then displays the letters with numbers.
+* `screenshots/` — Contains screenshots showing each program running successfully.
+
+### When would you reach for a `while` loop instead of a `for` loop?
+
+I would use a `while` loop when I want a program to keep repeating until a particular condition becomes false or an event occurs. A `for` loop is usually better when I know what items or range I want to iterate through.
