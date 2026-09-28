@@ -39,3 +39,11 @@ This repository contains my PLP Python Week 5 assignment covering while loops, f
 ### When would you reach for a `while` loop instead of a `for` loop?
 
 I would use a `while` loop when I want a program to keep repeating until a particular condition becomes false or an event occurs. A `for` loop is usually better when I know what items or range I want to iterate through.
+
+# PLP Python Week 6 Assignment
+
+`safe_tools.py` — Contains three safe functions for division, number conversion, and dictionary field lookup.
+
+`unbreakable.py` — Demonstrates handling errors so the program can continue running safely.
+
+The `if` check cannot catch `abc` on its own because `abc` causes a `ValueError` when Python tries to convert it to an integer. The `if` statement can check a value after conversion, but `try/except` is needed to handle the conversion error itself.
